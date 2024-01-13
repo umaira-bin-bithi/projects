@@ -3,3 +3,31 @@
 *{
     font-family: "Work Sans", sans-serif;
 }
+/*headee style*/
+header{
+    background-color: #ff900d1a;
+    padding: 50px 240px;
+}
+nav{
+    display: flex;
+    justify-content:space-between;
+}
+.nav-title{
+    font-size:3rem;
+     font-weight: 700;
+     color: var(--dark-01);
+}
+nav > ul{
+    display:flex;}
+
+ nav li{
+
+    list-style: none;
+    margin-right: 30px;
+    font-weight: 500;
+    font-size:1rem;
+}
+nav li a{
+    text-decoration: none;
+    color: #070707;
+}
