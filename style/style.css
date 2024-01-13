@@ -11,6 +11,7 @@ header{
 nav{
     display: flex;
     justify-content:space-between;
+    align-items: center;
 }
 .nav-title{
     font-size:3rem;
@@ -30,4 +31,24 @@ nav > ul{
 nav li a{
     text-decoration: none;
     color: #070707;
+}
+/*banner style*/
+.banner-content{
+    max-width: 800px;
+    text-align: center;
+    margin:0 auto;
+
+}
+.banner-title{
+    font-size: 4rem;
+    font-weight: 700;
+    color: #131313;
+
+}
+.banner-description{
+    color: #727272;
+}
+.btn-primary{
+    border-radius: 8px;
+    background-color: #FF900E;
 }
