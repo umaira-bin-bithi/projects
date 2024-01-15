@@ -3,6 +3,9 @@
 *{
     font-family: "Work Sans", sans-serif;
 }
+.text-color{
+    color: #727272;
+}
 /*headee style*/
 header{
     background-color: #ff900d1a;
@@ -13,7 +16,7 @@ nav{
     justify-content:space-between;
     align-items: center;
 }
-.nav-title{
+.section-title{
     font-size:3rem;
      font-weight: 700;
      color: var(--dark-01);
@@ -110,8 +113,15 @@ main {
     heder{
         padding:20px;
     }
-    nav{
+    nav,.teams-container{
         flex-direction: column;
+    }
+    .teams-img{
+        grid-template-columns: 1fr;
+    }
+    .teams-content{
+        padding-right: 20px;
+        padding-left:20px;
     }
 }
 /*tablet or medium device*/
