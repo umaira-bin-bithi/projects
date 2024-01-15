@@ -212,7 +212,7 @@ main {
     heder{
         padding:20px;
     }
-    nav,.teams-container,.sponsors-img,.feature,
+    nav,.teams-container,.sponsors-img,.feature,.footer,
     .facts-card{
         flex-direction: column;
     }
@@ -234,6 +234,11 @@ main {
 .facts-card{
     gap: 20px;
 }
+.footer{
+    width: 100%;
+    position: static;
+    margin:10px auto;
+}
 }
 /*tablet or medium device*/
 
@@ -243,8 +248,12 @@ main {
     
     padding:50px;}
    nav,
-   .teams-container,.sponsors-img,.feature
+   .teams-container,.sponsors-img,.feature,.footer
    {
     flex-direction: column;
    } 
+   .footer{
+    width: 70%;
+    margin-left: 0;
+   }
 }
